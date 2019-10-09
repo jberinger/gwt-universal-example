@@ -11,8 +11,8 @@
     </prerequisites>
 
     <scm>
-        <connection>scm:git:git@git.spreadomat.net:sprd/spreadshop.git</connection>
-        <developerConnection>scm:git:git@git.spreadomat.net:sprd/spreadshop.git</developerConnection>
+        <connection>scm:git:git@github.com:jberinger/gwt-universal-example.git</connection>
+        <developerConnection>scm:git:git@github.com:jberinger/gwt-universal-example.git</developerConnection>
     </scm>
  
     <distributionManagement>
