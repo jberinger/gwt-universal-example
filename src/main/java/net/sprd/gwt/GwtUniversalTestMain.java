@@ -40,7 +40,7 @@ public class GwtUniversalTestMain {
         // exposing the Jersey application at BASE_URI
         HttpServer server = GrizzlyHttpServerFactory.createHttpServer(URI.create(BASE_URI), rc, false);
         
-        String resourceBase = "./target/gwt-universal-test-"+GwtuTestVersion.VERSION+"/gwtutest";
+        String resourceBase = "./target/gwt-universal-example-"+GwtuTestVersion.VERSION+"/gwtutest";
         StaticHttpHandler staticHttpHandler = new StaticHttpHandler(resourceBase);
         server.getServerConfiguration().addHttpHandler(staticHttpHandler, "/gwtutest");
         
