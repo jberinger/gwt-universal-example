@@ -17,13 +17,10 @@
  
     <distributionManagement>
         <repository>
-            <id>sprd-libs-releases</id>
-            <url>https://repo.sprd.net/repository/libs-releases</url>
+            <id>github</id>
+            <name>GitHub jberinger Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/jberinger/gwt-universal-example</url>
         </repository>
-        <snapshotRepository>
-            <id>sprd-libs-snapshots</id>
-            <url>https://repo.sprd.net/repository/libs-snapshots</url>
-        </snapshotRepository>
     </distributionManagement>
 
     <properties>
